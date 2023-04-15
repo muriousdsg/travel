@@ -1,3 +1,21 @@
 p {
     color: #484848;
 }
+
+.header-titre {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+.menu {
+    display: flex;
+    gap: 45px;
+}
+
+.button-menu {
+    padding: 5px 25px;
+    background-color: white;
+    border-radius: 5px;
+}
