@@ -1,5 +1,5 @@
-p {
-    color: #484848;
+body {
+    margin: 0;
 }
 
 .header-titre {
@@ -7,6 +7,8 @@ p {
     justify-content: space-between;
     align-items: center;
     height: 100px;
+    margin-left: 80px;
+    margin-right: 80px;
 }
 
 .menu {
@@ -14,7 +16,45 @@ p {
     gap: 45px;
 }
 
+.menu a {
+    text-decoration: none;
+    color: #484848;
+}
+
 .button-menu {
+    padding: 5px 25px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.button-header {
+    padding: 5px 25px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 30px;
+}
+
+.second {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 300px;
+    background-color: black;
+    margin-top: 80px;
+}
+
+.second h2, p {
+    color: white;
+}
+
+.second-button {
     padding: 5px 25px;
     background-color: white;
     border-radius: 5px;
